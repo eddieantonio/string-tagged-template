@@ -1,0 +1,29 @@
+{
+  "name": "url-tagged-template",
+  "version": "1.0.0",
+  "description": "ES6 String Tagged Template for use with Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "dev": "ava --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddieantonio/url-tagged-template.git"
+  },
+  "keywords": [
+    "ES6",
+    "ES2015",
+    "tagged-template",
+    "URL"
+  ],
+  "author": "Eddie Antonio Santos <easantos@ualberta.ca> (http://eddieantonio.ca/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddieantonio/url-tagged-template/issues"
+  },
+  "homepage": "https://github.com/eddieantonio/url-tagged-template#readme",
+  "devDependencies": {
+    "ava": "^0.17.0"
+  }
+}
