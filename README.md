@@ -64,6 +64,6 @@ OTHER DEALINGS IN THE SOFTWARE.
 For more information, please refer to <http://unlicense.org/>
 
 [npm-url]: https://npmjs.org/package/url-tagged-template
-[npm-image]: https://img.shields.io/npm/v/url-tagged-template
+[npm-image]: https://img.shields.io/npm/v/url-tagged-template.svg
 [travis-image]: https://travis-ci.org/eddieantonio/url-tagged-template.svg?branch=master
 [travis-url]: https://travis-ci.org/eddieantonio/url-tagged-template
