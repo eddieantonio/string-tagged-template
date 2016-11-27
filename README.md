@@ -23,12 +23,12 @@ const myUrl = URL`http://example.org/a/b/c?foo=bar#baz`;
 myUrl.host
 // 'example.org'
 
-myUrl.path
+myUrl.pathname
 // '/a/b/c'
 
 myUrl.query
-// { foo : ['bar'] }
+// { foo : 'bar' }
 
-myUrl.fragment
-// 'baz'
+myUrl.hash
+// '#baz'
 ```

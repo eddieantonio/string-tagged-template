@@ -31,11 +31,11 @@ test('It returns a URL-like object', t => {
   t.true(obj instanceof Url);
 });
 
-test.skip(`It doesn't lie in the README`, t => {
+test(`It doesn't lie in the README`, t => {
   const myUrl = URL`http://example.org/a/b/c?foo=bar#baz`;
 
   t.is(myUrl.host, 'example.org');
-  t.is(myUrl.path, '/a/b/c');
-  t.is(myUrl.query, { foo : ['bar'] });
-  t.is(myUrl.fragment, 'baz');
+  t.is(myUrl.pathname, '/a/b/c');
+  t.deepEqual(myUrl.query, { foo : 'bar' });
+  t.is(myUrl.hash, '#baz');
 });
