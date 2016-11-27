@@ -1,7 +1,7 @@
 URL tagged template
 ===================
 
-[![Build Status](https://travis-ci.org/eddieantonio/url-tagged-template.svg?branch=master)](https://travis-ci.org/eddieantonio/url-tagged-template)
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 ES6 URL [tagged template][] for use with Node.JS.
 
@@ -62,3 +62,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>
+
+[npm-url]: https://npmjs.org/package/url-tagged-template
+[npm-image]: https://img.shields.io/npm/v/url-tagged-template
+[travis-image]: https://travis-ci.org/eddieantonio/url-tagged-template.svg?branch=master
+[travis-url]: https://travis-ci.org/eddieantonio/url-tagged-template
