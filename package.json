@@ -18,7 +18,7 @@
     "URL"
   ],
   "author": "Eddie Antonio Santos <easantos@ualberta.ca> (http://eddieantonio.ca/)",
-  "license": "MIT",
+  "license": "unlicense",
   "bugs": {
     "url": "https://github.com/eddieantonio/url-tagged-template/issues"
   },
