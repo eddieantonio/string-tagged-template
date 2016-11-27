@@ -32,7 +32,7 @@ const url = require('url');
  *
  * Automatically parses the query string.
  */
-module.exports = function URL(strings, ..._values) {
+module.exports = function URL(strings) {
   const text = strings[0];
   return url.parse(text, true);
 };
